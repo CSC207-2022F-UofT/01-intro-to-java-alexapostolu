@@ -149,7 +149,7 @@ public class Basics {
         // Fill in the rest of the body here
         
         String[] s = to_split.split(" ");
-        for (int i = 0; i < s.length; ++i);
+        for (int i = 0; i < s.length; ++i)
             ret.append(s[i].charAt(0));
         return ret.toString();
     }
